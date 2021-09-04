@@ -1,0 +1,357 @@
+/*This section is for browser reboot*/
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'open sans' sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+header {
+    width: 100%;
+    height: 120vh;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url('../img/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; 
+    
+
+}
+
+header .banner {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.custom-font {
+    font-family: 'playfair display', serif;
+}
+.banner .banner-heading {
+    
+    font-size: 6rem;
+    font-style: italic;
+    padding: 0 2rem; 
+}
+.banner .banner-text {
+    font-size: 1rem;
+    font-weight: normal;
+    background-color: white;
+    padding: 30px;
+    color: black;
+}
+.section-1 {
+    display: flex;
+    justify-content: center;
+    background-color:  #d9b1b3;
+    padding: 100px 0;
+    color: white;
+}
+.head1{
+    font-style: italic;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.head1 span{
+    font-size: 4rem;
+    line-height: 0;
+}
+.para1 {
+    width: 50%;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.row {
+    display: flex;
+}
+
+.gallery .img-container {
+    height: 600px;
+    width: 33.3%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+       
+}
+
+.gallery .gallery-img-1{
+    background-image: url(../img/nice1.jpeg);
+}
+.gallery .gallery-img-2 {
+    background-image: url(../img/nice2.jpeg);
+}
+.gallery .gallery-img-3 {
+    background-image: url(../img/nice3.jpeg);
+}
+.gallery .gallery-img-4{
+    background-image: url(../img/nice4.jpeg);
+}
+.gallery .gallery-img-5 {
+    background-image: url(../img/nice5.jpeg);
+}
+.gallery .gallery-img-6 {
+    background-image: url(../img/nice6.jpeg);
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9b1b5;
+    padding: 40px;
+    color: white;
+}
+.head2 {
+    font-size: 4rem;
+    font-style: italic;
+}
+.para2 {
+    
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 5px;
+    padding-bottom: 30px;
+}
+.form-row {
+    display: flex;
+    padding: 10px;    
+}
+.form-row .input-box input {
+    padding: 10px 16px;
+    border-radius: 17px;
+    margin: 5px;
+    border: 0;
+}
+.button-1 {
+    padding: 10px 16px;
+    border-radius: 17px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border: 0;
+    
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.section-3 .img-sec1 {
+    height: 600px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.section-3 .gallery-img {
+    background-image: url(../img/article.png);
+}
+.para-2 {
+    padding-top: 100px;
+    padding-left: 40px;
+    font-family: 'open sans' sans-serif;
+    font-size: 1.3rem;
+}
+.signature {
+    padding-top: 30px;
+    padding-left: 50px;
+    width: 10%;
+    
+}
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #d9b1b5 ;
+    align-items: center;
+    
+}
+.h2 {
+    font-size: 4rem;
+    color: white;
+    
+    font-style: italic;
+}
+.slide-row {
+    display: flex;
+    padding: 10px;
+    
+    
+}
+/*.section-4 .slide-container {
+    height: 300px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 10px;
+    
+}
+
+.section-4 .slide1 {
+    background-image: url(../img/slide-1.jpg);
+}
+
+.section-4 .slide2 {
+    background-image: url(../img/slide-2.jpg);
+}
+
+.section-4 .slide3 {
+    background-image: url(../img/slide-3.jpg);
+}
+
+.section-4 .slide4 {
+    background-image: url(../img/slide-4.jpg);
+}*/
+    
+.section-4 .images {
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+}
+.section-5 {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.products-row {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+.content {
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+
+.content .h3 {
+    padding: 30px 0;
+}
+
+.content .para3 {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.content .button-1 {
+    display: flex;
+    padding: 15px 35px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 18px;
+}
+
+.section-5 .products {
+    display: flex;
+    align-content: center;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    
+}
+
+.section-6 {
+    display: flex;
+    flex-direction: row;
+}
+.subs-1 {
+    width: 50%;
+}
+.section-6 .sub1-container {
+    height: 500px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    
+}
+
+.section-6 .subscribe1 {
+    background-image: url(../img/subscribe.jpeg);
+}
+
+.subs-content {
+    
+    padding: 50px 20px;
+    align-items: center;
+    
+}
+.hori {
+    padding-top: 70px;
+}
+
+.subs3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.head4 {
+    font-size: 4rem;
+    
+    font-family:  'Verdana' sans-serif;
+    font-style: italic;
+}
+.form-row1{
+    display: flex;
+}
+
+.form-row1 .input-box1 input {
+    padding: 10px 25px;
+    margin: 10px;
+}
+.button-2 {
+    padding: 15px 35px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+}
+
+.button-2 button:hover {
+    background: white;
+    color: black;
+}
+.para4 {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 20px;
+}
+.socail-icons {
+    padding: 20px 0px;
+}
+.footer {
+    margin-top: -16px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(49, 47, 47);
+    color: white;
+    font-size: 0.8rem;
+       
+}
+
+.para {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
